@@ -1,0 +1,41 @@
+body{
+  background-color: #00ffff;
+}
+.container{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: Roboto, sans-serif;
+}
+
+h2{
+  color: white;
+  background-color: black;
+  padding: 15px;
+  text-align: center;
+  border-radius: 8px;
+}
+h3{
+  text-shadow: 1px 1px 1px #cccccc;
+  font-family: inherit;
+}
+.color{
+  color: aqua;
+}
+.btn{
+  border: 1px solid black;
+  width: 150px;
+  height: 50px;
+  font-size: 16px;
+  color: black;
+  background-color: white;
+  margin-bottom: 10px;
+  font-family: inherit;
+}
+.btn:hover{
+  color: aqua;
+  background-color: black;
+}
